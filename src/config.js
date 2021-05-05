@@ -3,160 +3,116 @@
 export let arr = [
     {
         img:require('@/assets/1.png'),
-        href:'http://jenkins.hdfax.com/',
-        content:'新jenkins发布平台'
+        href:'https://cn.vuejs.org/',
+        content:'Vue官网'
     },
     {
-        img:require('@/assets/1.png'),
-        href:'http://172.16.59.251:8080/login?from=%2F',
-        content:'旧jenkins发布平台'
+        img:require('@/assets/2.jpg'),
+        href:'https://reactjs.bootcss.com/',
+        content:'React官网'
     },
     {
-        img:require('@/assets/1.png'),
-        href:'http://oa.hengjs.com/w/eif/dev_team/',
-        content:'财富Phabricator平台'
+        img:require('@/assets/2.jpg'),
+        href:'https://element.eleme.cn/#/zh-CN/component/layout',
+        content:'Element官网'
     },
     {
-        img:require('@/assets/2.png'),
-        href:'http://10.1.202.21:8007',
-        content:'产线CMDB平台'
+        img:require('@/assets/2.jpg'),
+        href:'https://github.com/',
+        content:'Github官网'
     },
     {
-        img:require('@/assets/3.png'),
-        href:'http://10.1.202.21:10800/zabbix',
-        content:'财富zabbix监控平台'
+        img:require('@/assets/2.jpg'),
+        href:'https://github.com/doocs',
+        content:'Github中文文档'
     },
     {
-        img:require('@/assets/3.png'),
-        href:'http://10.1.202.21:10801/zabbix',
-        content:'财富网络zabbix监控平台'
+        img:require('@/assets/2.jpg'),
+        href:'https://lanhuapp.com/',
+        content:'蓝湖'
     },
     {
-        img:require('@/assets/3.png'),
-        href:'http://10.100.250.192/zabbix',
-        content:'支付zabbix监控平台'
+        img:require('@/assets/2.jpg'),
+        href:'https://cloud.tencent.com/developer/doc/1270',
+        content:'腾讯云学习平台'
     },
     {
-        img:require('@/assets/4.png'),
-        href:'http://10.1.202.21:3000',
-        content:'财富监控Grafana平台'
+        img:require('@/assets/2.jpg'),
+        href:'https://www.bilibili.com/',
+        content:'B站'
     },
     {
-        img:require('@/assets/4.png'),
-        href:'http://10.1.202.21:3001',
-        content:'财富网络Grafana平台'
+        img:require('@/assets/2.jpg'),
+        href:'https://juejin.cn/frontend',
+        content:'掘金'
     },
     {
-        img:require('@/assets/4.png'),
-        href:'http://10.100.250.193:3000',
-        content:'支付监控Grafana平台'
+        img:require('@/assets/2.jpg'),
+        href:'https://www.zhihu.com/',
+        content:'知乎'
     },
     {
-        img:require('@/assets/4.png'),
-        href:'https://10.1.202.21:10443/cgi-bh/login.cgi',
-        content:'财富堡垒机'
+        img:require('@/assets/2.jpg'),
+        href:'https://pc.qq.com/detail/8/detail_22868.html',
+        content:'下载'
     },
     {
-        img:require('@/assets/4.png'),
-        href:'https://10.100.250.193/cgi-bh/login.cgi',
-        content:'支付堡垒机'
+        img:require('@/assets/2.jpg'),
+        href:'https://www.iconfont.cn/',
+        content:'阿里图库Iconfont'
     },
     {
-        img:require('@/assets/4.png'),
-        href:'https://10.1.202.21:18443/Auth.action?logout',
-        content:'财富产线mysql企业监控'
+        img:require('@/assets/2.jpg'),
+        href:'https://fanyi.youdao.com/?keyfrom=fanyi-new.logo',
+        content:'有道云在线翻译'
     },
     {
-        img:require('@/assets/4.png'),
-        href:'https://10.1.202.21:7803/em/faces/logon/core-uifwk-console-login',
-        content:'财富产线oracle企业监控'
+        img:require('@/assets/2.jpg'),
+        href:'https://time.geekbang.org/',
+        content:'极客时间'
     },
     {
-        img:require('@/assets/4.png'),
-        href:'https://10.100.250.193:7803:18443/Overview.action',
-        content:'支付产线mysql企业监控'
+        img:require('@/assets/2.jpg'),
+        href:'https://tool.chinaz.com/dns/?type=1&host=github.com&ip=',
+        content:'dns查询'
     },
     {
-        img:require('@/assets/4.png'),
-        href:'https://10.100.250.193:7803/em',
-        content:'支付产线oracle企业监控'
+        img:require('@/assets/2.jpg'),
+        href:'http://172.16.68.236/profile/preferences',
+        content:'gitlab代码托管平台'
+    },
+    {
+        img:require('@/assets/2.jpg'),
+        href:'http://172.16.81.22:3000/group/11',
+        content:'yapi接口托管平台'
+    },
+    {
+        img:require('@/assets/2.jpg'),
+        href:'http://jenkins.hdfax.com/view/test_%E5%9F%BA%E9%87%91/job/tfun-jhjzfund-%E9%87%91%E6%B5%B7%E4%B9%9D%E5%B7%9E%E5%9F%BA%E9%87%91%E5%AE%98%E7%BD%91%E7%B3%BB%E7%BB%9F/job/tfun-jhjzfund-oms-website-pc/',
+        content:'Jenkins部署平台'
+    },
+    {
+        img:require('@/assets/2.jpg'),
+        href:'https://www.tapd.cn/my_dashboard',
+        content:'Tapd流程控制平台'
+    },
+    {
+        img:require('@/assets/2.jpg'),
+        href:'https://pages.github.com/',
+        content:'GitHub静态网站搭建'
+    },
+    {
+        img:require('@/assets/2.jpg'),
+        href:'https://greasyfork.org/zh-CN/scripts',
+        content:'脚本'
     },
 ]
 // 应用平台
 export let brr = [
     {
         img:require('@/assets/5.png'),
-        href:'https://hdzhanbao.hdfax.com',
-        content:'恒财助手PC端'
+        href:'https://www.zhipin.com/web/geek/resume?ka=header-resume',
+        content:'Boss直聘'
     },
-    {
-        img:require('@/assets/6.png'),
-        href:'https://workbench.umeng.com',
-        content:'友盟数据统计系统'
-    },
-    {
-        img:require('@/assets/7.png'),
-        href:'http://c.chanzor.com',
-        content:'畅卓短信管理平台'
-    },
-    {
-        img:require('@/assets/8.png'),
-        href:'https://combatmap.hdfax.com/combatmap-manage/#/login',
-        content:'战报PC端'
-    },
-    {
-        img:require('@/assets/9.png'),
-        href:'https://omc.hdfax.com/eif-omc-web/login.jsp',
-        content:'omc系统'
-    },
-    {
-        img:require('@/assets/10.png'),
-        href:'https://hrx.hdfax.com/login',
-        content:'恒才库系统'
-    },
-    {
-        img:require('@/assets/11.png'),
-        href:'https://extract.hdfax.com',
-        content:'提数系统'
-    },
-    {
-        img:require('@/assets/12.png'),
-        href:'https://www.jpush.cn/devservice',
-        content:'极光推送系统'
-    },
-    {
-        img:require('@/assets/13.png'),
-        href:'http://admin.hdwtpay.com/uni-login/login',
-        content:'支付后台管理系统'
-    },
-    {
-        img:require('@/assets/14.png'),
-        href:'http://http://www.hengyujing.com/',
-        content:'恒御锦系统'
-    },
-    {
-        img:require('@/assets/15.png'),
-        href:'http://me.hengdadai.com/ecf-me-web/login.jsp',
-        content:'企业贷后台管理'
-    },
-    {
-        img:require('@/assets/16.png'),
-        href:'http://192.168.92.51:48080/ecf-core/logon.html',
-        content:'业主贷后台管理'
-    },
-    {
-        img:require('@/assets/17.png'),
-        href:'https://lanhuapp.com/',
-        content:'蓝湖设计协作平台'
-    },
-    {
-        img:require('@/assets/18.jpg'),
-        href:'https://www.tapd.cn/cloud_logins/login',
-        content:'Tapd项目管理平台'
-    },
-    {
-        img:require('@/assets/19.jpg'),
-        href:'http://172.16.68.236/',
-        content:'gitlab代码托管平台'
-    }
+    
 ]

@@ -2,8 +2,8 @@
   <div id="app">
     <div class="content">
       <div id="nav">
-        <div class="nav-itme" :class="active?'active':''" @click="changeTab(true)">运维平台</div>
-        <div class="nav-itme" :class="active?'':'active'" @click="changeTab(false)">应用平台</div>
+        <div class="nav-itme" :class="active?'active':''" @click="changeTab(true)">频繁使用</div>
+        <div class="nav-itme" :class="active?'':'active'" @click="changeTab(false)">求职平台</div>
         <!-- <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> -->
       </div>
@@ -35,7 +35,7 @@ export default {
 #app{
     width: 100vw;
     height: 100vh;
-    background-image: url('~@/assets/ditu.jpg');
+    background-image: url('~@/assets/ditu.png');
     background-size: 100% 100%;
     overflow: hidden;
     box-sizing: border-box;
@@ -52,12 +52,13 @@ export default {
           font-size: 20px;
           padding: 5px;
           width: 100px;
-          color: #ff0;
+          color: #fff;
           list-style: none;
           border-left: 1px solid #f4f4f4;
           cursor: pointer;
           text-decoration: none;
           text-align: center;
+          background-color: #000;
         }
         .nav-itme.active {
           background-color: #9932cd;
